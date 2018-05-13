@@ -1,0 +1,32 @@
+.content{
+    padding-top: 5vh;
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+.content h2{
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content hr{
+    border-color: #F04D4E;
+    width: 65px;
+}
+#experience{
+    margin-left: 50px;
+}
+#projects{
+    margin-left: 25px;
+}
+#getintouch{
+    margin-left: 60px;
+}
+
+#line{
+    border-left: 4px solid #F04D4E;
+    height: 500px;
+}

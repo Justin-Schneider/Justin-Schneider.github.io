@@ -1,0 +1,40 @@
+.header{
+    height: 50vh;
+}
+.header #particles-js{
+    background-color: #17182f;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    z-index: -1;
+}
+.HeaderContent{
+    text-align: center;
+    padding-top: 10vh;
+    height: 60%;
+}
+.HeaderContent h1{
+    color: whitesmoke;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+.HeaderContent #rocket {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+}
+.HeaderContent ul{
+    padding: 0;
+}
+.HeaderContent li{
+    display: inline;
+}
+.button.github:hover{
+    background-color: #333;
+    border-color: #333;
+}
+.button.linkedin:hover{
+    background-color: #0077B5;
+    border-color: #0077B5;
+}
