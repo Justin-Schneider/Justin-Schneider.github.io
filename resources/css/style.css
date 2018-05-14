@@ -1,5 +1,6 @@
 html{
   font-family: 'Muli', sans-serif;
+  overflow-x: hidden;
 }
 body{
   padding: 0;
