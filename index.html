@@ -5,12 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link rel="stylesheet" media="screen" href="resources/css/style.css">
     <link rel="stylesheet" media="screen" href="resources/css/header.css">
     <link rel="stylesheet" media="screen" href="resources/css/content.css">
     <link rel="stylesheet" media="screen" href="resources/css/footer.css">
-
+    <link rel="stylesheet" media="screen" href="resources/css/experience.css">
+    <link rel="stylesheet" media="screen" href="resources/css/projects.css">
+    <link rel="stylesheet" media="screen" href="resources/css/background.css">
+    <link rel="stylesheet" media="screen" href="resources/css/mobile.css">
 </head>
 <body>
     <div class="header">
@@ -20,32 +23,106 @@
             <h1>Justin Schneider</h1>
             <ul>
                 <li><a class="button github" href="https://github.com/Justin-Schneider" target="_blank">Github</a></li>
-                <li><a class="button linkedin" href="https://www.linkedin.com/in/justin-schneider-97abb3158/" target="_blank">Linkedin</a></li>
+                <li><a class="button linkedin" href="https://www.linkedin.com/in/justin-schneider-97abb3158/"
+                       target="_blank">Linkedin</a></li>
+                <li><a class="button email" href="mailto:justinms@email.sc.edu">Email</a></li>
+                <li><a class="button resume" href="resources/Justin Schneider- Resume.pdf" target="_blank">Resume</a></li>
+
             </ul>
         </div>
     </div>
-    <div class="content">
-        <div>
-            <h2>Experience</h2><hr id="experience">
-            <div id="timeline">
-                <img src="resources/images/location.png">
-                <div id="line"></div>
-            </div>
-            <div class="card">
 
+    <div class="content">
+        <div class="experience">
+            <h2>Experience</h2>
+            <hr id="experience">
+            <div class="timeline">
+                <img class="location" src="resources/images/location.png">
+                <div class="line"></div>
+            </div>
+            <div class="experiencecard">
+                <h3>University of South Carolina</h3>
+                <h4>Teaching Assistant</h4>
+                <p>As a teaching assistant at USC, I helped students complete Java programming assignments, graded homework
+                    and assignments, and tutored students in Java. The assignments covered variables, branching statements,
+                    loops, arrays, objects, inheritance,
+                    polymorphism, encapsulation, exceptions, and File IO. I also enforced Google's Java style guide to help
+                    students write readable code.</p>
+                <span class="tag">Java</span>
             </div>
         </div>
-        <div>
-            <h2>Projects</h2><hr id="projects">
-        </div>
-        <div>
-            <h2>Get in Touch</h2><hr id="getintouch">
+
+        <div class="projects">
+            <h2>Projects</h2>
+            <hr id="projects">
+            <a href="https://github.com/SCCapstone/Hydration-Manager" target="_blank">
+                <div class="project">
+                    <div id="imagehydration"></div>
+                    <div class="card">
+                        <h3>Capstone Project - Hydration Manager</h3>
+                        <p>A web app to aid the athletic training staff at the University of South Carolina. The
+                            training staff currently use a pencil and paper method of tracking water weight loss by weighing
+                            athletes before and after practice. The trainers then input this data into an Excel spreadsheet to
+                            calculate athlete hydration status. The purpose of Hydration-Manager is to shift this process to an
+                            online, web-based application. The application will alert staff immediately if athletes are
+                            dehydrated, improving response time for cases of severe dehydration and promoting the overall health
+                            of student athletes</p>
+                        <span class="tag">Meteor</span><span class="tag">React</span><span class="tag">MongoDB</span><span class="tag">Javascript</span><span class="tag">Node</span>
+                    </div>
+                </div>
+            </a>
+            <div class="background">
+                <div id="stripe1"></div>
+                <div id="stripe2"></div>
+                <div id="stripe3"></div>
+                <div id="stripe4"></div>
+                <div id="stripe5"></div>
+            </div>
+            <a href="https://github.com/Justin-Schneider/HealthApp" target="_blank">
+                <div class="project">
+                    <div id="imagehealth"></div>
+                    <div class="card">
+                        <h3>Ionic App - HealthTrack</h3>
+                        <p>A Mobile App made with USC’s Backers and Hackers for a group of students at Richland Two Institute of
+                            Innovation (R2i2). The App helps companies track there employees health, such as hydration levels,
+                            calories intake, steps taken, and
+                            heart rate.</p>
+                        <span class="tag">Ionic</span><span class="tag">Angular 4</span><span class="tag">Parse</span><span class="tag">Typescript</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/Justin-Schneider/CSCE567_GroupThree_Spring17" target="_blank">
+                <div class="project">
+                    <div id="imagelending"></div>
+                    <div class="card">
+                        <h3>D3.js Visualization - Peer to Peer Lending</h3>
+                        <p>A data visualization that makes use of Lending Tree's peer to peer lending data and the 2007 - 2009
+                            recession as a point to change, to show how peer to peer lending changed. The visualization shows
+                            the average loam amount requested and granted per state, the average debt to income ratio, and the
+                            average loan interest. </p>
+                        <span class="tag">D3.js</span><span class="tag">Javascript</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/Justin-Schneider" target="_blank">
+                <div id="moreprojects">
+                    Check out my Github for more projects
+                </div>
+            </a>
         </div>
     </div>
     <footer>
+        <h2>Get in Touch</h2>
+        <hr id="touch">
+        <ul>
+            <li><a class="button email" href="mailto:justinms@email.sc.edu">Email</a></li>
+            <li><a class="button resume" href="resources/Justin Schneider- Resume.pdf" target="_blank">Resume</a></li>
+            <li><a class="button github" href="https://github.com/Justin-Schneider" target="_blank">Github</a></li>
+            <li><a class="button linkedin" href="https://www.linkedin.com/in/justin-schneider-97abb3158/" target="_blank">Linkedin</a></li>
 
+        </ul>
+        <p>© Justin Schneider. All rights reserved.</p>
     </footer>
-
     <script src="resources/js/particles.js"></script>
     <script src="resources/js/app.js"></script>
 </body>

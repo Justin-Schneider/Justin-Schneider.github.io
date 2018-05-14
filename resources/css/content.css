@@ -1,7 +1,7 @@
 .content{
     padding-top: 5vh;
     margin: 0 auto;
-    max-width: 50em;
+    max-width: 65em;
 }
 
 .content h2{
@@ -24,9 +24,4 @@
 }
 #getintouch{
     margin-left: 60px;
-}
-
-#line{
-    border-left: 4px solid #F04D4E;
-    height: 500px;
 }

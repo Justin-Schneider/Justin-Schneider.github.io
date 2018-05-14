@@ -1,0 +1,63 @@
+.projects{
+    margin-bottom: 4vh;
+}
+.project{
+    margin-top: 4vh;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+    display: table;
+}
+.project:hover{
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08), 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+.project h3{
+    color: #000;
+}
+.card{
+    background-color: #fff;
+    padding: 25px 15px;
+    margin-top: 4vh;
+    display: table-cell;
+}
+
+.card .cardcontent{
+    margin-left: 2vh;
+}
+
+#imagehydration {
+     background-image: url("../images/hydration.png");
+     background-repeat: no-repeat;
+     width: 250px;
+     display: table-cell;
+ }
+#imagehealth{
+    background-image: url("../images/health.png");
+    background-repeat: no-repeat;
+    width: 250px;
+    display: table-cell;
+}
+#imagelending{
+    background-image: url("../images/lending.png");
+    background-repeat: no-repeat;
+    width: 250px;
+    display: table-cell;
+}
+
+#moreprojects{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+    text-align: center;
+}
+#moreprojects:hover{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08), 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+a{
+    text-decoration: none;
+    color: #000;
+}

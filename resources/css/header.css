@@ -38,3 +38,11 @@
     background-color: #0077B5;
     border-color: #0077B5;
 }
+.button.resume:hover{
+    background-color: #F04D4E;
+    border-color: #F04D4E;
+}
+.button.email:hover{
+    background-color: #1f497d;
+    border-color: #1f497d;
+}

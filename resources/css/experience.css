@@ -1,0 +1,9 @@
+.experience{
+
+}
+.experiencecard{
+    background-color: #fff;
+    padding: 25px 15px;
+    margin: 4vh 4vh 4vh 8vh;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+}
