@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aa08e0d-b1dd-412b-b724-539b01d6748a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/background.css" afterPath="$PROJECT_DIR$/resources/css/background.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/style.css" afterPath="$PROJECT_DIR$/resources/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,8 +39,8 @@
       <file leaf-file-name="background.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/css/background.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="651">
+              <caret line="43" column="158" lean-forward="false" selection-start-line="43" selection-start-column="158" selection-end-line="43" selection-end-column="158" />
               <folding />
             </state>
           </provider>
@@ -198,12 +196,12 @@
       <workItem from="1526069728535" duration="152000" />
       <workItem from="1526069881459" duration="129000" />
       <workItem from="1526070011426" duration="16411000" />
-      <workItem from="1526238729830" duration="23669000" />
+      <workItem from="1526238729830" duration="23806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40361000" />
+    <option name="totallyTimeSpent" value="40498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -400,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/background.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="651">
+          <caret line="43" column="158" lean-forward="false" selection-start-line="43" selection-start-column="158" selection-end-line="43" selection-end-column="158" />
           <folding />
         </state>
       </provider>
