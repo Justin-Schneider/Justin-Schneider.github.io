@@ -1,7 +1,13 @@
 .content{
     padding-top: 5vh;
     margin: 0 auto;
-    max-width: 65em;
+    max-width: 60vw;
+}
+
+@media (max-width: 1366px) {
+    .content{
+        max-width: 75vw;
+    }
 }
 
 .content h2{

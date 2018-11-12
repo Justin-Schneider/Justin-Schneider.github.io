@@ -4,6 +4,11 @@
 .experiencecard{
     background-color: #fff;
     padding: 25px 15px;
-    margin: 4vh 4vh 4vh 8vh;
+    margin: 4vh 0vw 4vh 4vw;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 1366px) {
+    .experiencecard{
+        margin: 4vh 0vw 4vh 5vw;
+    }
 }
